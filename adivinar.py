@@ -9,7 +9,7 @@ numero_azar = random.randint(MINIMO, MAXIMO)
 intentos = 0
 
 while True:
-    intento_usuario = int(input("Introduce un numero"))
+    intento_usuario = int(input("Introduce el numero deseado"))
     intentos += 1
     if intento_usuario > numero_azar:
         print("Te has pasado el numero es mas pequeño que" + str(intento_usuario))
